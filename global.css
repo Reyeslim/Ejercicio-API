@@ -1,0 +1,27 @@
+.container {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+    padding: 48px;
+    width: 100%;
+}
+
+.square {
+    border: ridge 3px purple;
+    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+}
+
+.title {
+    border-bottom: dashed 1px purple;
+    color:darkslategray;
+    font-weight: bold;
+    text-align: center;
+    padding: 18px;
+}
+
+.info {
+    text-align: center;
+}
